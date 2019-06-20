@@ -1,0 +1,122 @@
+header {
+  position: fixed ;
+  top: 0 ;
+  background-color: white ;
+ border-bottom-style: solid ;
+ border-bottom-color: black ;
+ margin-top: 0px ;
+ margin-bottom: 2px ;
+ height: 100px ;
+ width: 100% ;
+}
+.namebutton {
+  font-size: 10px ;
+  background-color: teal ;
+  color: white ;
+  border-style: solid ;
+  padding: 20px ;
+  margin-left: 15% ;
+  margin-right: 70% ;
+  margin-bottom: 0px ;
+  float: left; 
+}
+.About {
+    border-bottom-style: solid ;
+    border-bottom-color: grey ;
+    font-size: 24px ; 
+    margin-left: 100px ;
+    
+    
+ 
+}
+.wrapper {
+    overflow: auto ;
+    background-color: white ;
+    width: 960px ;
+    margin: 0 auto ;
+    padding: 20px ;
+    margin-top: 120px ;
+    
+}
+body {
+    background: url("https://i.imgur.com/MOkYBLj.png") ;
+    border-top-style: solid ;
+    margin: 0 auto ;
+}
+nav {
+    position: relative; 
+    float: right ;
+    top: -60px ; 
+    right: 10px ;
+}
+nav:hover {
+    background-color: purple ;
+    color: white ;
+}
+ul li {
+    display: inline ;
+    color: white ;
+}
+.clear {
+    clear: both ;
+    overflow: auto ;
+}
+form {
+   margin-top: 90px ; 
+    margin: 0 auto;
+    width: 600px;
+   
+   
+   
+  }
+  
+  form div + div {
+    margin-top: 2em;
+  }
+  
+  label {
+    margin-right: 100px ; 
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    
+    font: 2em sans-serif;
+    width: 600px;
+    box-sizing: border-box;
+     border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  .name{
+      font-size: 16px ;
+  }
+  
+  
+  .button {
+    margin-left: 180px ; 
+    color: white ;
+  }
+  footer {
+    margin-bottom: 0px ;
+    border-bottom-color: black ;
+    border-bottom-style: solid ;
+    border-bottom-width: 40px ;
+    text-align: center ;
+    margin-top: 400px;
+    
+}
+
+.bottom {
+    border-bottom-style: solid ;
+    border-bottom-color: teal ;
+    border-bottom-width: 10px ;
+    
+}
+@media screens and (max-width:940px) and (max-width:768px) and (max-width:640px) {
+  
+}
