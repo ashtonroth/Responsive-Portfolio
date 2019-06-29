@@ -53,11 +53,12 @@ ul li {
     height: 600px; 
     margin: 0 auto ;
     padding: 20px ;
-    margin-top: 120px ;
+    margin-top: 80px ;
     
     margin-bottom: 100px ;
     border-style: solid; 
     border-color: black ; 
+
     
 }
 .About {
@@ -106,8 +107,9 @@ footer {
     overflow: auto ;
 }
 
-@media screen and (max-width:980px) and (max-width:768px) and (max-width:640px) {
-    text-align: center ; 
-    
+@media screen and (max-width:980px), (max-width:768px) , (max-width:640px) {
+   body {
 
+    background-color: #333 ;
+   }
 }
